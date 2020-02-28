@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.QRCode.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/matsta_color">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="QR코드"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/bv_qrcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ll_qrcode"
+        android:layout_below="@id/tb_qrcode"
+        app:zxing_scanner_layout="@layout/view_qrcode">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_qrcodeimage"
+                android:layout_width="1500dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/im_qrcode_box" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@id/iv_qrcodeimage"
+                android:layout_marginTop="90dp"
+                android:text="QR 코드를 비춰주세요."
+                android:textSize="21dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"/>
+        </RelativeLayout>
+
+    </com.journeyapps.barcodescanner.DecoratedBarcodeView>
+
+    <LinearLayout
+        android:id="@+id/ll_qrcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <com.sbsj.ordermatsta_client.Util.CustomBtnIcon
+            android:id="@+id/btn_main_sound"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:symbol="@drawable/btn_soun_on"
+            app:text="촬영음ON"/>
+        <com.sbsj.ordermatsta_client.Util.CustomBtnIcon
+            android:id="@+id/btn_main_qr"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:symbol="@drawable/btn_qrcode"
+            app:text="QR코드스캔"/>
+        <com.sbsj.ordermatsta_client.Util.CustomBtnIcon
+            android:id="@+id/btn_main_flash"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:symbol="@drawable/btn_flash_on"
+            app:text="플래시ON"/>
+    </LinearLayout>
+</RelativeLayout>

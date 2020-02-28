@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="matsta_color">#FC9600</color>
+    <color name="tm_color">#00FFFFFF</color>
+    <color name="half_transparent">#2F888888</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#BDBBBB</color>
+    <color name="gray_white">#28BDBBBB</color>
+    <color name="red">#F10303</color>
+
+    <color name="btn_google_bg">#DE4C3F</color>
+    <color name="btn_naver_bg">#3ACE00</color>
+    <color name="btn_kakao_bg">#FFE711</color>
+
+    <color name="bg_category">#83D5D0D0</color>
+</resources>

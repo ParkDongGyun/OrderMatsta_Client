@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_ol_goodname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴 이름 : 고불떡"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_ol_goodprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가격 : 10,000원"
+            android:textSize="30dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_ol_amountCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:text="수량 : "
+                    android:textSize="30dp"
+                    android:textColor="@color/colorAccent"/>
+                <Button
+                    android:id="@+id/btn_ol_downAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_ol_amountCategory"
+                    android:text="-"/>
+
+                <TextView
+                    android:id="@+id/tv_ol_amount"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/btn_ol_downAmount"
+                    android:layout_centerInParent="true"
+                    android:text="1"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"/>
+
+                <Button
+                    android:id="@+id/btn_ol_upAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_ol_amount"
+                    android:text="+" />
+
+            </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_ol_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="삭제"
+        android:textSize="21dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

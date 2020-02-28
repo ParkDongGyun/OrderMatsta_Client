@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">오더 맛스타</string>
+
+    <string name="googleLoginKey">845191476196-msjpuuq3pucefiu1njfdcqd5o67gct1e.apps.googleusercontent.com</string>
+    <string name="kakaoLoginKey">ae87b6430fd82ae150e5d87ad19eaa25</string>
+    <string name="naverLoginId">CzLGRDZrfd5o7odiBmNl</string>
+    <string name="naverLoginSecret">oMXMBSJoBl</string>
+
+    <string name="NetworkCheck">OK</string>
+
+    <string name="drawertoggle_open">메뉴 활성화</string>
+    <string name="drawertoggle_close">메뉴 비활성화</string>
+
+    <string name="sound_on">촬영음ON</string>
+    <string name="sound_off">촬영음OFF</string>
+    <string name="qrcode_scan">QR코드스캔</string>
+    <string name="flash_on">플래시ON</string>
+    <string name="flash_off">플래시OFF</string>
+
+    <string name="permission_msg">권한 요청에 수락해야 이용 가능합니다. /n 설정에서 앱 권한을 허용해주세요.</string>
+
+    <string name="oneprice_msg">%s 원</string>
+    <string name="totalprice_msg">%s 원 주문하기</string>
+
+    <string name="agree_title_1">결제 내용 확인 후 위 내용에 동의(필수)</string>
+    <string name="agree_title_2">개인정보 수집 및 이용동의(필수)</string>
+    <string name="agree_title_3">개인정보 제 3자 제공동의(필수)</string>
+    <string name="agree_title_4">전자금융거래 이용약관(필수)</string>
+
+    <string name="btn_google_text">구글 아이디로 로그인</string>
+    <string name="btn_naver_text">네이버 아이디로 로그인</string>
+    <string name="btn_kakao_text">카카오 아이디로 로그인</string>
+
+    <string name="amountform">X %d</string>
+    <string name="prepare_service">준비중인 서비스입니다.</string>
+    <string name="defend_word">#####</string>
+    <string name="id">id</string>
+    <string name="member_id">member_id</string>
+    <string name="directory">directory</string>
+    <string name="sns_id">sns_id</string>
+    <string name="name">name</string>
+    <string name="phone">phone</string>
+    <string name="gender">gender</string>
+    <string name="birthday">birthday</string>
+    <string name="date">date</string>
+    <string name="master_id">master_id</string>
+    <string name="category">category</string>
+    <string name="address">address</string>
+    <string name="image">image</string>
+    <string name="store_id">store_id</string>
+    <string name="sequence">sequence</string>
+    <string name="menucate_id">menucate_id</string>
+    <string name="price">price</string>
+    <string name="detail">detail</string>
+    <string name="goods_id">goods_id</string>
+
+    <string name="total_price">total_price</string>
+    <string name="discount">coupon</string>
+    <string name="wrapping">wrapping</string>
+
+    <string name="order_id">order_id</string>
+    <string name="amount">amount</string>
+    <string name="receipt_id">receipt_id</string>
+    <string name="paymethod">paymethod</string>
+
+    <string name="order_idarray">order_id[]</string>
+    <string name="goods_idarray">goods_id[]</string>
+    <string name="amount_array">amount[]</string>
+    <string name="pricearray">price[]</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="custom_view">
+        <attr name="bg" format="reference|integer"/>
+        <attr name="h" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="custom_btn_icon">
+        <attr name="symbol" format="reference"/>
+        <attr name="text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomBtnLogin">
+        <attr name="bg_login" format="integer|reference"/>
+        <attr name="symbol_login" format="integer|reference"/>
+        <attr name="text_login" format="string|reference"/>
+    </declare-styleable>
+</resources>

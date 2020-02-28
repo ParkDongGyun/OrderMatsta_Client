@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/btn_soun_on"
+        android:title="@string/sound_on" />
+
+    <item
+        android:id="@+id/navigation_order"
+        android:icon="@drawable/btn_qrcode"
+        android:title="@string/qrcode_scan" />
+
+    <item
+        android:id="@+id/navigation_my_profile"
+        android:icon="@drawable/btn_flash_on"
+        android:title="@string/flash_on" />
+
+</menu>
